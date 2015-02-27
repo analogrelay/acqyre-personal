@@ -1,4 +1,4 @@
-Recipe git-credential-winstore {
+formula git-credential-winstore {
     version "1.2.0"
     url "https://github.com/anurse/git-credential-winstore/releases/download/1.2.0/git-credential-winstore.exe" -Hash "30A9319D6401A0BAF46C97077F9078090F40CC06CF96496D7156ED965481095E"
 
