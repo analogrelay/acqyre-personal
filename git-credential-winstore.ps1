@@ -8,8 +8,7 @@ formula git-credential-winstore {
         bin -Name "git-credential-winstore" -Content @'
 #!/bin/bash
 # This is for Git to call, since Git uses bash
-DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-"$DIR/../Packages/git-credential-winstore/1.2.0/git-credential-winstore.exe" "$@"
+"$ACQYRE_LIBRARY/Packages/git-credential-winstore/1.2.0/git-credential-winstore.exe" "$@"
 '@
     }
 }
