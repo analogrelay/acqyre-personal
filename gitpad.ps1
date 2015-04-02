@@ -5,7 +5,7 @@ formula gitpad {
     packager "Andrew Stanton-Nurse <andrew@andrewnurse.net>"
 
     on install {
-    	# Git doesn't like using cmd files as editors because it uses a POSIX shell to execute commands...
+        # Git doesn't like using cmd files as editors because it uses a POSIX shell to execute commands...
         bin -copy gitpad.exe
     }
 }

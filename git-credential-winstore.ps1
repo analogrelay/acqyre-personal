@@ -4,7 +4,7 @@ formula git-credential-winstore {
     author "Andrew Stanton-Nurse <andrew@andrewnurse.net>"
 
     on install {
-    	# Git doesn't like using cmd files as credential helpers because it uses a POSIX shell to execute commands...
+        # Git doesn't like using cmd files as credential helpers because it uses a POSIX shell to execute commands...
         bin -Name "git-credential-winstore" -Content @'
 #!/bin/bash
 # This is for Git to call, since Git uses bash
